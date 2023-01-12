@@ -12,3 +12,9 @@ Favorite places to eat in the bay
 * Mr Pickles
 * Everest Cruisine
 * Chik-Fil-A
+
+```
+public static void main(String[] args) {
+  System.out.println("Hello World");
+}
+```
