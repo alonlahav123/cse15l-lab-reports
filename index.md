@@ -20,3 +20,14 @@ public static void main(String[] args) {
   System.out.println("Hello World");
 }
 ```
+
+# Week 1 Lab Report
+### How to remotely access my account
+--- 
+## Step 1: Open VS Code
+
+## Step 2: Open The Terminal
+
+## Step 3: SSH Into Account
+
+## Step 4: Bash Commands
