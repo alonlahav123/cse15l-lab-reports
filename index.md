@@ -28,6 +28,7 @@ public static void main(String[] args) {
 ### How to remotely access my account
 --- 
 ## Step 1: Open VS Code
+![Image](https://github.com/alonlahav123/cse15l-lab-reports/blob/ee1865981b384fab650bdb63a15a40bd795abdd5/VSCode%20Screenshot.png)
 
 ## Step 2: Open The Terminal
 
