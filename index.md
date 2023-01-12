@@ -1,4 +1,4 @@
-![Image](\VSCode Screenshot.png)
+![Image](https://github.com/alonlahav123/cse15l-lab-reports/blob/ee1865981b384fab650bdb63a15a40bd795abdd5/VSCode%20Screenshot.png)
 
 
 
