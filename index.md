@@ -3,7 +3,7 @@
 [LinkedIn](https://www.linkedin.com/in/alon/)
 
 I have a dog, he is a [Hovawart](https://www.akc.org/dog-breeds/hovawart/)
-![dog](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cuteness.com%2F13590182%2Fhovawart-dog-breed-facts-information&psig=AOvVaw1dYXytOjs355EehY7HGyt7&ust=1673651858314000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLDgzZaVw_wCFQAAAAAdAAAAABAI)
+![dog](https://img.cutenesscdn.com/375/cme-data/getty%2Fb46c8e0b602f4de69847c6dc7783fd9d.jpg)
 
 >I am from the Bay Area
 
