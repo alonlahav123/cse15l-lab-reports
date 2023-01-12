@@ -1,3 +1,7 @@
+![Image](VSCode Screenshot.png)
+
+
+
 # Hello!
 My name is **Alon**
 [LinkedIn](https://www.linkedin.com/in/alon/)
@@ -25,7 +29,6 @@ public static void main(String[] args) {
 ### How to remotely access my account
 --- 
 ## Step 1: Open VS Code
-![Image](VSCode Screenshot.png)
 
 ## Step 2: Open The Terminal
 
