@@ -1,10 +1,12 @@
 # Hello!
-**Bold** My name is Alon
+My name is **Alon**
 [LinkedIn](https://www.linkedin.com/in/alon/)
 
 I have a dog, he is a [Hovawart](https://www.akc.org/dog-breeds/hovawart/)
 ![dog](https://img.cutenesscdn.com/375/cme-data/getty%2Fb46c8e0b602f4de69847c6dc7783fd9d.jpg)
----
+
+--- 
+
 >I am from the Bay Area
 
 Favorite places to eat in the bay
