@@ -42,6 +42,7 @@ public static void main(String[] args) {
 $ ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
  - replace the "zz" after "cs15lwi23" with your user id
+P.S. my user is "ats"
 
 ## Step 4: Bash Commands
  - once inside try some bash commands
