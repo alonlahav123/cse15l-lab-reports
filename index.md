@@ -29,9 +29,14 @@ public static void main(String[] args) {
 --- 
 ## Step 1: Open VS Code
 ![Image](https://github.com/alonlahav123/cse15l-lab-reports/blob/ee1865981b384fab650bdb63a15a40bd795abdd5/VSCode%20Screenshot.png)
+ - download VS Code if you haven't already at this [link](https://code.visualstudio.com/)
+ - once you have this you can continue to the next step 
 
 ## Step 2: Open The Terminal
+ - 
 
 ## Step 3: SSH Into Account
+ - 
 
 ## Step 4: Bash Commands
+ - 
