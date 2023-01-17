@@ -2,7 +2,7 @@
 ### How to remotely access my account
 --- 
 ## Step 1: Open VS Code
-![Image](https://github.com/alonlahav123/cse15l-lab-reports/blob/ee1865981b384fab650bdb63a15a40bd795abdd5/VSCode%20Screenshot.png)
+![Image](/bash-try.png)
  - download VS Code if you haven't already at this [link](https://code.visualstudio.com/)
  - once you have this you can continue to the next step 
 
