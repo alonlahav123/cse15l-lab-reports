@@ -24,6 +24,9 @@ $ ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
  - replace the "zz" after "cs15lwi23" with your user id
  - side note: when typing your password you will not see any characters being written on the screen which is fine! Proceed as normal
+ - once logged in you will see the same thing as shown in the above image
+ - you will now have access to the remote account and you will be shown your home directory (signified by the ~)
+
 P.S. my user is "ats"
 
 #### Forget username? 
