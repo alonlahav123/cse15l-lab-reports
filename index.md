@@ -57,4 +57,4 @@ P.S. my user is "ats"
  - try `clear` to clear the command line
  - try `exit` to exit the remote access
 
-I learned a lot from running these commands, specifically on how to go about navigating my computer's file system through a text based application rather than the normal graphical user interface. I also learned that a lot of these commands have inputs as well as flag that alter their normal function to make my life easier as a programmer. I was specifically interested in `ls -l` which I later learned that it shows the permissions of different users and what each type of user can do to each file.
+I learned a lot from running these commands, specifically on how to go about navigating my computer's file system through a text based application rather than the normal graphical user interface. I also learned that a lot of these commands have inputs as well as flags that alter their normal function to make my life easier as a programmer. I was specifically interested in `ls -l` which I later learned that it shows the permissions of different users and what each type of user can do to each file.
