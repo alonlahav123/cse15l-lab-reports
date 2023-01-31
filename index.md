@@ -1,5 +1,6 @@
 # Week 2 Lab Report
 
+## Part 1
 Code for the StringServer:
 ```
 import java.io.IOException;
@@ -43,8 +44,8 @@ class StringServer {
 ```
 ![Image1](/cse15l-lab3-screenshot1.png)
 Methods called:
- - I went to the following URL: http://localhost:4000/add-message?s=Hello
- - When I access this specific URL it calles the Handler class which called the handleRequest method
+ - I went to the following URI: http://localhost:4000/add-message?s=Hello
+ - When I access this specific URL it calls the Handler class which called the handleRequest method
  - The handleRequest method takes in the URL and is able to extract information from it
 
 Relevant Arguments:
@@ -53,11 +54,21 @@ Relevant Arguments:
  - Then we see the query which is "?s=Hello" which my code separates into two arguments by dividing it around the "="
  - Then we know that what follows the "s=" will be the string that I want to add therefore I add "Hello" to my global string
  - Finally I concatinate "\n" to add a new line so that any future additional messages will appear on a new line
+ - In total the only field changed is the `str` variable as the inputted string gets added as well as the URI
 
 ![Image2](/cse15l-lab3-screenshot2.png)
 Methods called:
- - I went to the following URL: __http://localhost:4000/add-message?s=How are you__
- - Similar to the above example, 
+ - I went to the following URI: [http://localhost:4000/add-message?s=How are you](http://localhost:4000/add-message?s=How%20are%20you)
+ - Similar to the above example, this URL calls the Handler class which called the handleRequest method
+ - The handleRequest method takes in the URL and is able to extract information from it
+
+Relevant Arguments:
+ - The relevant arguements for this is the "/add-message?s=How are you"
+ - My code is able to take that arguement and understand that I want to add a message to my overall string as the path is "/add-message"
+ - Then we see the query which is "?s=How are you" which my code separates into two arguments by dividing it around the "="
+ - Then we know that what follows the "s=" will be the string that I want to add therefore I add "How are you" to my global string
+ - Finally I concatinate "\n" to add a new line so that any future additional messages will appear on a new line
+ - In total the only field changed is the `str` variable as the inputted string gets added as well as the URI
 
 ---
 ---
