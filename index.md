@@ -1,3 +1,66 @@
+# Week 2 Lab Report
+
+Code for the StringServer:
+```
+import java.io.IOException;
+import java.net.URI;
+
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    String str = "";
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return String.format("String: %s", str);
+        } else if (url.getPath().equals("/add-message")) {
+            System.out.println("Path: " + url.getPath());
+            String[] parameters = url.getQuery().split("=");
+            if (parameters[0].equals("s")) {
+                str += parameters[1];
+                str += "\n";
+                return String.format(str);
+            }
+        } else {
+            return "404 Not Found!";
+        }
+        return String.format("404 Not Found!");
+    }
+}
+
+class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+```
+![Image1](/cse15l-lab3-screenshot1.png)
+Methods called:
+ - I went to the following URL: http://localhost:4000/add-message?s=Hello
+ - When I access this specific URL it calles the Handler class which called the handleRequest method
+ - The handleRequest method takes in the URL and is able to extract information from it
+
+Relevant Arguments:
+ - The relevant arguements for this is the "/add-message?s=Hello"
+ - My code is able to take that arguement and understand that I want to add a message to my overall string as the path is "/add-message"
+ - Then we see the query which is "?s=Hello" which my code separates into two arguments by dividing it around the "="
+ - Then we know that what follows the "s=" will be the string that I want to add therefore I add "Hello" to my global string
+ - Finally I concatinate "\n" to add a new line so that any future additional messages will appear on a new line
+
+![Image2](/cse15l-lab3-screenshot2.png)
+Methods called:
+ - I went to the following URL: __http://localhost:4000/add-message?s=How are you__
+ - Similar to the above example, 
+
+---
+---
 # Week 1 Lab Report
 ### How to remotely access my account
 --- 
