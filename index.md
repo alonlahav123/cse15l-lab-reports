@@ -70,6 +70,67 @@ Relevant Arguments:
  - Finally I concatinate "\n" to add a new line so that any future additional messages will appear on a new line
  - In total the only field changed is the `str` variable as the inputted string gets added as well as the URI
 
+## Part 2
+
+For this section I choose the Array bug in ArrayExample.java 
+Specifically the bug in the method `reversed()`
+
+#### Failure-inducing input:
+```
+@Test
+public void test2Reversed() {
+    int[] input1 = {1, 2, 3, 4, 5};
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, ArrayExamples.reversed(input1));
+}
+```
+ - this causes a failure as the output will be an array of all zeros
+ - this is because we are setting `arr[i] = newArray[arr.length - i - 1]` and as newArray is initialized to contain all zeros it overrides arr to contain all zeros
+
+#### Input that doesn't induce failure
+```
+@Test
+public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+}
+```
+ - this does not create failure as the reverse of an empty array is an empty array and as we return `arr` it will return the correct value
+
+#### The symptom
+Instead of the output being the reverse of the input, we always get an array of the correct length but that contains all zeros.
+
+#### The bug fixed
+With bug:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1]; #source of bug
+    }
+    return arr;
+}
+```
+
+Bug fixed:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1]; #switched newArray and arr
+    }
+    return newArray; #return newArray instead of arr
+}
+```
+The main issue of the code occurs in the following line: `arr[i] = newArray[arr.length - i - 1]`
+Instead we need to switch the arrays as we want to copy arr into newArray but in a reverse fashion which would lead to code as follows:
+`newArray[i] = arr[arr.length - i - 1];`
+Also we want to return `newArray` at the end as the newArray will contain the reversed input.
+
+## Part 3
+Something new I learned this week is about how the structure of a URL communicates data. I learned that the URL contains four main parts: the domain, the path, the query, and the fragment. The domain is the initial part of the URL after the `https://`, this routes the user to the correct overall website. This tends to correspond to an organization or person like www.youtube.com and www.facebook.com. One note is that the domain is the only necessity to access a website, the path, query, and fragment are all optional. After the domain we get to the path, this is seen when there is a `/` in the URL but ends before any `?` or `#`. This part of the URL directs the user into a speific page inside of the domain. This is similar to the file system we have in our own computers were you can go into and out of directories and have a path of directories seperated by `/`'s. Next there is the query, this part is after any '?'. This will contain data that can be passed to the website through the URL. Next we see the 
+
+
+
 ---
 ---
 # Week 1 Lab Report
