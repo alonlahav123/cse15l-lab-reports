@@ -8,6 +8,7 @@ This flag filters all files by their type, AKA only looks at one file type as sp
 Example #1:
 
 `$ find -type f`
+![Image](/type1.png)
 
 This command will find and display all files that are of type file which is why the arguement is "f". This excludes things like directories, pipes, and device files. 
 
@@ -15,6 +16,7 @@ This command will find and display all files that are of type file which is why 
 Example #2:
 
 `find -type d`
+![Image](/type2.png)
 
 This command will find and display all directories which is why the arguement is "d". This is useful as it shows all directories that are deeper inside than just the working directory.
 
