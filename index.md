@@ -1,3 +1,67 @@
+# Week 3 Lab Report
+
+## Command: find
+
+### type ___
+This flag filters all files by their type, AKA only looks at one file type as specified  after
+
+Example #1:
+
+`$ find -type f`
+
+This command will find and display all files that are of type file which is why the arguement is "f". This excludes things like directories, pipes, and device files. 
+
+
+Example #2:
+
+`find -type d`
+
+This command will find and display all directories which is why the arguement is "d". This is useful as it shows all directories that are deeper inside than just the working directory.
+
+
+### perm ___
+This flag will search for any files with the given permission code.
+
+Example #1:
+
+`find -perm 755`
+
+Example #2:
+
+`find ! -perm 644`
+
+
+### exec ___
+This flag will execute any command given to it on the files found by find.
+
+Example #1:
+
+`find -name "*.txt" -exec grep -Hi shalom {} \;`
+
+Example #2:
+
+`find -name “*.txt” -exec chmod 777 {} \;`
+
+
+
+### -size ___
+This flag will search for any files that corresponds to the given input size.
+
+Example #1:
+
+`find -name "*.txt" -exec grep -Hi shalom {} \;`
+
+Example #2:
+
+`Find -name “*.txt” -exec chmod 777 {} \;`
+
+
+## Extra
+
+### empty
+
+
+
 # Week 2 Lab Report
 
 ## Part 1
