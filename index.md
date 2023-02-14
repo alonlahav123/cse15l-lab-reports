@@ -77,6 +77,15 @@ Example #2:
 ![Image2](/empty.png)
 
 
+## Resources:
+https://alvinalexander.com/unix/edu/examples/find.shtml#:~:text=The%20%2Dtype%20f%20option%20here,f%20option%20off%20your%20command. 
+https://linux.die.net/man/1/grep 
+https://man7.org/linux/man-pages/man1/find.1.html 
+https://www.redhat.com/sysadmin/linux-find-command 
+https://www.tecmint.com/35-practical-examples-of-linux-find-command/ 
+
+
+
 # Week 2 Lab Report
 
 ## Part 1
