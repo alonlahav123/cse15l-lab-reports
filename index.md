@@ -8,7 +8,8 @@ This flag filters all files by their type, AKA only looks at one file type as sp
 Example #1:
 
 `$ find -type f`
-![Image](/type1.png)
+
+![Image1](/find1.png)
 
 This command will find and display all files that are of type file which is why the arguement is "f". This excludes things like directories, pipes, and device files. 
 
@@ -16,7 +17,8 @@ This command will find and display all files that are of type file which is why 
 Example #2:
 
 `find -type d`
-![Image](/type2.png)
+
+![Image2](/find2.png)
 
 This command will find and display all directories which is why the arguement is "d". This is useful as it shows all directories that are deeper inside than just the working directory.
 
@@ -28,9 +30,13 @@ Example #1:
 
 `find -perm 755`
 
+![Image2](/perm1.png)
+
 Example #2:
 
 `find ! -perm 644`
+
+![Image2](/perm2.png)
 
 
 ### exec ___
@@ -40,10 +46,13 @@ Example #1:
 
 `find -name "*.txt" -exec grep -Hi shalom {} \;`
 
+![Image2](/exec2.png)
+
 Example #2:
 
 `find -name “*.txt” -exec chmod 777 {} \;`
 
+![Image2](/exec1.png)
 
 
 ### -size ___
@@ -53,7 +62,11 @@ Example #1:
 
 `find -name "*.txt" -exec grep -Hi shalom {} \;`
 
+![Image2](/size1.png)
+
 Example #2:
+
+![Image2](/size2.png)
 
 `Find -name “*.txt” -exec chmod 777 {} \;`
 
@@ -61,7 +74,7 @@ Example #2:
 ## Extra
 
 ### empty
-
+![Image2](/empty.png)
 
 
 # Week 2 Lab Report
