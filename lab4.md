@@ -18,17 +18,17 @@ My first attempt took a little over 11 minutes but by the end I was able to comp
 
 My strategy comprised on creating a text document containing all the commands I needed to run and opening it side by side with my terminal copy and pasting the commands I wanted to run. This was the text document:
 
-![textDocumentOfCommands]()
+![textDocumentOfCommands](lab4-file-of-all-commands.png)
 
 This is how I setup my windows for the competition:
 
-![windowSetup]()
+![windowSetup](lab4-window-setup.png)
 
 Assuming I already completed the setup I start from step 4 do the following:
 
 First I started by copying the ssh command from the text file and pasting it into my terminal as so:
 
-![sshcommand]()
+![sshcommand](lab4-ssh-command.png)
 
 This command will ssh into my account and because I already setup the authentication, I don't need to type my password in anymore.
 
@@ -65,7 +65,7 @@ while(index2 < list2.size()) {
   }
 return result;
 ``` 
-![nanoImage]()
+![nanoImage](lab4-nano.png)
 
 Then I save the changes by pressing <Ctrl>-<O> then <enter> and finally to exit I press <Ctrl>-<X> then <enter>
    
@@ -83,7 +83,7 @@ git commit -m 'l'
 git push
 ```
 
-![push]()
+![push](lab4-push.png)
 
 This will have completed steps 8 and 9 which is the end of the competition.
     
