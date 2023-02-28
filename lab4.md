@@ -53,30 +53,31 @@ Now that I am in the nano code editor, I press the <down arrow> key for a couple
 ```
 while(index2 < list2.size()) {
     result.add(list2.get(index2));
-    index2 += 1;
+    index1 += 1;
   }
 return result;
 ```
-                            
-
-
-
-ssh cs15lwi23ats@ieng6.ucsd.edu
-
-git clone git@github.com:alonlahav123/lab7.git
-
-cd lab7/
-
+To being: 
+```
+while(index2 < list2.size()) {
+    result.add(list2.get(index2));
+    index2 += 1;
+  }
+return result;
+```                            
+Now that I have fixed `ListExamples.java` I can recompile everything to make sure it works then commit and push my changes by copy and pasting the following lines:
+    
+```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 
-nano ListExamples.java 
-
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+git add .
 
 git commit -m 'l'
 
 git push
+```
+    
+This will have completed steps 8 and 9 which is the end of the competition.
+
