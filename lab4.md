@@ -64,7 +64,11 @@ while(index2 < list2.size()) {
     index2 += 1;
   }
 return result;
-```                            
+``` 
+![nanoImage]()
+
+Then I save the changes by pressing <Ctrl>-<O> then <enter> and finally to exit I press <Ctrl>-<X> then <enter>
+   
 Now that I have fixed `ListExamples.java` I can recompile everything to make sure it works then commit and push my changes by copy and pasting the following lines:
     
 ```
@@ -78,6 +82,14 @@ git commit -m 'l'
 
 git push
 ```
-    
+
+![push]()
+
 This will have completed steps 8 and 9 which is the end of the competition.
+    
+All in all, I managed to complete the task quickly because I got it down to 4 basic steps:
+ - sh into my account
+ - paste code to clone code plus compile, run, and enter text editor
+ - go to end of file and change one character then save and exit
+ - paste in the final commands to compile and run code then commit and push the code
 
