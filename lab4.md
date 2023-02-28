@@ -30,7 +30,9 @@ First I started by copying the ssh command from the text file and pasting it int
 
 ![sshcommand]()
 
-Next I combine steps 5 through 7 as they can run independently from each other. I copy the following four lines and paste them into my terminal: 
+This command will ssh into my account and because I already setup the authentication, I don't need to type my password in anymore.
+
+Next I combine steps 5 through 7 as they can run independently from each other. I copy the following five lines and paste them into my terminal: 
 
 ```
 git clone git@github.com:alonlahav123/lab7.git
@@ -44,8 +46,18 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 nano ListExamples.java 
 ```
 
-This code 
+This code clones the fork I had made earlier into my home directory that I am conencted to. Next it changes directory into the lab7 directory. Then it compiles all the java files as well as the needed libraries and afterwards runs the java file `ListExamplesTests` with the needed libraries. Finally I nano into ListExamples.java so that I can makes the changes required to fix the code so that all the tests pass.
 
+Now that I am in the nano code editor, I press the <down arrow> key for a couple of seconds to go to the bottom of the file. Then I press the <up arrow> key seven times and press the <right arrow> key twelve times. Finally I press <backspace> once and then I press <2> once. This fixed the code from being:
+
+```
+while(index2 < list2.size()) {
+    result.add(list2.get(index2));
+    index2 += 1;
+  }
+return result;
+```
+                            
 
 
 
