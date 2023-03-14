@@ -50,7 +50,8 @@ command to where I could specify which `1` I was to place as this occured multip
 - `ListExamples.java` is the input file 
 
 This is what `sed` looks like without the `-i` flag:
-![lab5img](lab5-without-i.png)
+
+![lab5img](lab5-no-i.png)
 
 ### Second Challenge:
 Now with this command in my arsenal I was able to do all the tasks by copy and pasting commands into the command line, unlike before where I had to 
