@@ -49,11 +49,16 @@ command to where I could specify which `1` I was to place as this occured multip
 - `index2` is the replacement text
 - `ListExamples.java` is the input file 
 
+This is what `sed` looks like without the `-i` flag:
+![lab5img](lab5-without-i.png)
+
 ### Second Challenge:
 Now with this command in my arsenal I was able to do all the tasks by copy and pasting commands into the command line, unlike before where I had to 
 maneuver inside the nano text editor. I was now able to put all of the commands into one bash file which is when I ran into my second problem. 
 
-After executing the SSH command, all the other commands were not being run. This confused me so I tried to just copy and paste all the commands and 
+![lab5img](lab5-without-quotes.png)
+
+After executing the SSH command, all the other commands were not being run as shown above. This confused me so I tried to just copy and paste all the commands and 
 found that the same issue was happening. After some research I found that in order to run commands after you SSH into a server you need to put them into
 a string after the SSH file and after doing that I got the following bash script to complete all of the needed tasks!
 
