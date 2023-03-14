@@ -89,3 +89,7 @@ This is how it looked like in the terminal:
 
 ![lab5img](lab5-running-script.png)
 
+
+After final confirmations that it ran all the correct commands as well as committing and pushing the fix to the java code, I am happy to say that I have fully automated a task that initially took me 12 minutes down to a single bash script!
+
+I really enjoyed this lab as it gave me a chance to go back and spend some more time trying new things which led me to discover the `sed` command as well as sharpen my skills with bash scripts and sshing.
